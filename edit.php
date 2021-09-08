@@ -55,7 +55,8 @@ else
 <p>Contact Number: </p>
 <input type="ctype_digit" id="contact" value = " <?php echo $attendee['contact'] ; ?>" name="contact" required="required" size="100">
 <br/>
-<button type="submit" id = "submit" name="submit" style = "width:985px;" class="btn btn-success btn-block" value="Submit">Save Changes</button>
+<a href="viewrecords.php" class="btn btn-default">Back to list</a>
+<button type="submit" id = "submit" name="submit"  class="btn btn-success btn" value="Submit">Save Changes</button>
 </form>
 
 <?php } ?>
